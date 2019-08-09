@@ -59,11 +59,12 @@ def reduce_to_all_true(source_array)
   counter = 0
   is_true = true
   while counter < source_array.length do
-    if source_array = true
-      return true
+    if source_array == is_true
+      return is_true
     counter += 1
   else
     return false
+    counter += 1
     end
   end
 end
