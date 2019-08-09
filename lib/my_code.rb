@@ -55,6 +55,13 @@ def reduce_to_total(source_array, starting_point = 0)
   return new_sum
 end
   
-  
+  def method_name(array)
+  counter = 0
+ 
+  while counter < array.length do
+    
+    counter += 1
+  end
+end
   
   
