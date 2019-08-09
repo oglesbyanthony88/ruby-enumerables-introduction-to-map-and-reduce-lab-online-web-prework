@@ -55,11 +55,11 @@ def reduce_to_total(source_array, starting_point = 0)
   return new_sum
 end
   
-  def reduce_to_all_true(source_array)
+def reduce_to_all_true(source_array)
   counter = 0
   is_true = true
   while counter < source_array.length do
-    if source_array = is_true
+    if source_array == is_true
       return true
     counter += 1
   else
