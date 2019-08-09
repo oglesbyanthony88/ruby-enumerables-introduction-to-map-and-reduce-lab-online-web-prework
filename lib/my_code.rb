@@ -72,6 +72,7 @@ def reduce_to_any_true(source_array)
     if source_array[i]
       return true
       i += 1
+      break
     end
   end
 end
