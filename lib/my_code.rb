@@ -62,6 +62,8 @@ end
     if source_array = is_true
       return true
     counter += 1
+  else
+    return false
     end
   end
 end
