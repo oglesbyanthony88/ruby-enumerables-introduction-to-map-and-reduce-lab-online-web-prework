@@ -54,7 +54,8 @@ def reduce_to_total(source_array, starting_point = 0)
   new_sum = source_array.reduce(starting_point, :+)
   return new_sum
 end
-  
+
+=begin  
 def reduce_to_all_true(source_array)
   counter = 0
   is_true = true
@@ -67,5 +68,17 @@ def reduce_to_all_true(source_array)
     end
   end
 end
+=end
   
-  
+def reduce_to_all_true(source_array)
+  i = 0
+  while i < source_array.length do
+    if
+  is_true = source_array.reduce(0, :true)
+  return is_true
+    else
+  is_false = source_array.reduce(0, :false)
+  return is_false
+    end
+  end
+end
